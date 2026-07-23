@@ -493,7 +493,7 @@ menu "Device Support"
         help
           Say Y if you want to include support for OmniPod 5 PDM
 
-    config TECNO_LE7n
+    config TECNO_LE7N
         bool "Support Tecno Pova 2"
         default n
         help
