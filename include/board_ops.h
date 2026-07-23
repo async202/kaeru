@@ -13,7 +13,7 @@
 #include <lib/common.h>
 #include <lib/debug.h>
 #include <lib/fastboot.h>
-#include <lib/lock_state.h>
+#include <lib/security/seccfg.h>
 #include <lib/recovery.h>
 #include <lib/string.h>
 #include <lib/storage.h>
@@ -25,10 +25,6 @@
 
 #ifdef CONFIG_FRAMEBUFFER_SUPPORT
 #include <lib/framebuffer.h>
-#endif
-
-#ifdef CONFIG_LIBSEJ_SUPPORT
-#include <lib/sej.h>
 #endif
 
 #ifdef CONFIG_SPOOF_SUPPORT

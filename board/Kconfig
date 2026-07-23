@@ -492,9 +492,34 @@ menu "Device Support"
         default n
         help
           Say Y if you want to include support for OmniPod 5 PDM
-    config TECNO_LE7
-        bool "Support tecno pova 2"
+
+    config TECNO_LE7n
+        bool "Support Tecno Pova 2"
         default n
         help
           Say Y if you want to include support for Tecno Pova 2
+
+    config XIAOMI_LANCELOT
+        bool "Support Redmi 9/Redmi 9 Prime"
+        default n
+        help
+          Say Y if you want to include support for Redmi 9/Redmi 9 Prime
+
+    config XIAOMI_MERLIN
+        bool "Support Redmi 10X 4G/Redmi Note 9"
+        default n
+        help
+          Say Y if you want to include support for Redmi 10X 4G/Redmi Note 9
+
+    config XIAOMI_BEGONIA
+        bool "Support Redmi Note 8 Pro"
+        default n
+        help
+          Say Y if you want to include support for Redmi Note 8 Pro
+
+    config SAMSUNG_GTA7LITE
+        bool "Support Galaxy Tab A7 Lite"
+        default n
+        help
+          Say Y if you want to include support for Galaxy Tab A7 Lite
 endmenu
